@@ -75,11 +75,7 @@ I develop and ship both platforms from **Arch Linux**.
 | **GSC SEO Checker** <sub>private</sub> | Google Search Console reporting and audit tool | Python |
 | **omarchy-setup** <sub>private</sub> | My Arch Linux / Hyprland workstation configuration | Lua, Bash |
 
-> Most of my work lives in private and client repositories, so the contribution graph says more than the repo list does.
-
-<p align="center">
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=D4RK0N3dev&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=560">
-</p>
+> Most of my work lives in private and client repositories — the contribution graph below tells more of the story than the repo list does.
 
 ### Background
 
