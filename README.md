@@ -2,7 +2,6 @@
 
 <p align="center">
   <b>Software Engineer</b> · Kraków, Poland<br>
-  Mobile, web, 3D, automation, and whatever I got curious about last week.
 </p>
 
 <p align="center">
@@ -13,28 +12,6 @@
 
 ---
 
-### About
-
-I'm a software engineer with **6+ years** of shipping things, and an incurable habit of picking up whatever tool the problem actually needs.
-
-That's taken me across a fairly wide map: React Native apps live on both app stores, interactive 3D product configurators in Three.js, an ERP and a webshop on .NET APIs, RPA robots automating SAP and PDF OCR, custom WordPress plugins in PHP, a desktop client in Rust, SEO tooling in Python, and a Hyprland desktop I keep rebuilding in Lua because it's fun.
-
-Right now most of my time goes to **React Native / Expo** — I'm the sole mobile engineer on a production EdTech app for iOS, Android and Web, which means I own everything from the design system down to the native layer and the release pipeline. When the SDK doesn't cover a requirement I go write the native bit: iOS Live Activities, Android foreground services, Expo config plugins, patched modules.
-
-The parts I enjoy most are the ones where the obvious approach doesn't work — chasing down why the recording screen re-renders on every mic sample, making uploads survive a dead network, keeping 60fps under rapid input. I develop and ship both platforms from **Arch Linux**, mostly out of stubbornness, and it turned out to be a good teacher.
-
-Lately I've been deep in **LLM tooling** — MCP servers, custom agents, driving a running app through its accessibility tree to automate QA.
-
-### Things I've experimented with
-
-<table>
-<tr><td><b>Mobile</b></td><td>React Native + Expo, offline-first sync, ActivityKit Live Activities, Android foreground services, Reanimated, haptics, RevenueCat subscriptions, EAS builds &amp; OTA</td></tr>
-<tr><td><b>Web</b></td><td>React, Angular, Three.js / WebGL configurators, Tailwind, Node, SSE streams, Supabase</td></tr>
-<tr><td><b>Systems &amp; scripting</b></td><td>Rust desktop client, Python tooling, Lua/Bash Linux config, Bun</td></tr>
-<tr><td><b>AI</b></td><td>Speech-to-text pipelines, LLM analysis over REST, MCP servers, custom coding agents</td></tr>
-<tr><td><b>Automation</b></td><td>UiPath RPA over SAP and Office, PDF OCR, GitHub Actions CI</td></tr>
-<tr><td><b>Older stumbling grounds</b></td><td>WordPress/PHP plugins, .NET APIs, technical SEO</td></tr>
-</table>
 
 ### Tech
 
@@ -78,7 +55,5 @@ Lately I've been deep in **LLM tooling** — MCP servers, custom agents, driving
 | **Aula** <sub>private</sub> | EdTech lecture recording with AI analysis — iOS, Android and Web, built from the first commit | Expo, TypeScript, Supabase, RevenueCat |
 | **CEDH.io Client** <sub>private</sub> | Desktop client for a deck-building community | Rust |
 | **GSC SEO Checker** <sub>private</sub> | Google Search Console reporting and audit tool | Python |
-| **omarchy-setup** <sub>private</sub> | My Arch Linux / Hyprland workstation, versioned and reproducible | Lua, Bash |
-| **cv-pdf-generator** <sub>private</sub> | Because writing a CV in HTML beat fighting a word processor | HTML, Node |
 
 > Most of my work lives in private and client repositories — the contribution graph below tells more of the story than the repo list does.
