@@ -1,36 +1,40 @@
 <h1 align="center">D4RK0N3</h1>
 
 <p align="center">
-  <b>Senior React Native Developer</b> · Kraków, Poland<br>
-  Cross-platform apps for iOS, Android and Web — from the first commit to the store listing.
+  <b>Software Engineer</b> · Kraków, Poland<br>
+  Mobile, web, 3D, automation, and whatever I got curious about last week.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zieba-piotr"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <img alt="Location" src="https://img.shields.io/badge/Kraków,_PL-1a1a2e?style=flat-square&logo=googlemaps&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white">
+  <img alt="Arch Linux" src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white">
 </p>
 
 ---
 
 ### About
 
-React Native developer with **6+ years** shipping web and mobile products. Currently the **sole mobile engineer** on a production Expo app released for iOS, Android and Web — responsible for its architecture, native layer and release process.
+I'm a software engineer with **6+ years** of shipping things, and an incurable habit of picking up whatever tool the problem actually needs.
 
-I go into native code when the SDK doesn't cover the requirement: iOS Live Activities, Android foreground services, Expo config plugins, patched native modules. Before mobile I spent several years on React, Three.js, Angular and WordPress/PHP — from interactive 3D product configurators to RPA automation.
+That's taken me across a fairly wide map: React Native apps live on both app stores, interactive 3D product configurators in Three.js, an ERP and a webshop on .NET APIs, RPA robots automating SAP and PDF OCR, custom WordPress plugins in PHP, a desktop client in Rust, SEO tooling in Python, and a Hyprland desktop I keep rebuilding in Lua because it's fun.
 
-I develop and ship both platforms from **Arch Linux**.
+Right now most of my time goes to **React Native / Expo** — I'm the sole mobile engineer on a production EdTech app for iOS, Android and Web, which means I own everything from the design system down to the native layer and the release pipeline. When the SDK doesn't cover a requirement I go write the native bit: iOS Live Activities, Android foreground services, Expo config plugins, patched modules.
 
-### What I'm building
+The parts I enjoy most are the ones where the obvious approach doesn't work — chasing down why the recording screen re-renders on every mic sample, making uploads survive a dead network, keeping 60fps under rapid input. I develop and ship both platforms from **Arch Linux**, mostly out of stubbornness, and it turned out to be a good teacher.
 
-**Aula** — an EdTech app that records lectures and returns AI teaching analysis. Built from the first commit, live on both app stores.
+Lately I've been deep in **LLM tooling** — MCP servers, custom agents, driving a running app through its accessibility tree to automate QA.
 
-- **Native background recording** — iOS ActivityKit Live Activity on the lock screen and Dynamic Island, Android foreground-service notification, wired up through custom Expo config plugins
-- **Offline-first** — recordings written to disk before upload, reconciled on load, re-sent on foreground, with a claim registry that prevents double sends
-- **AI pipeline** — speech-to-text and analysis over REST with async queue polling plus an SSE stream, feeding auto-generated quizzes, mind maps and teacher dashboards
-- **Meeting bot** — records Zoom, Meet and Teams calls server-side
-- **Performance** — replaced unbounded parallel fan-outs with a measured permit pool, and narrowed a high-frequency mic signal that was re-rendering the whole recording screen down to the two components that display it
-- **Release engineering** — Android built locally through the Gradle/JDK toolchain, iOS submitted to TestFlight on EAS macOS workers, GitHub Actions CI for typecheck, lint and dependency audit
+### Things I've experimented with
+
+<table>
+<tr><td><b>Mobile</b></td><td>React Native + Expo, offline-first sync, ActivityKit Live Activities, Android foreground services, Reanimated, haptics, RevenueCat subscriptions, EAS builds &amp; OTA</td></tr>
+<tr><td><b>Web</b></td><td>React, Angular, Three.js / WebGL configurators, Tailwind, Node, SSE streams, Supabase</td></tr>
+<tr><td><b>Systems &amp; scripting</b></td><td>Rust desktop client, Python tooling, Lua/Bash Linux config, Bun</td></tr>
+<tr><td><b>AI</b></td><td>Speech-to-text pipelines, LLM analysis over REST, MCP servers, custom coding agents</td></tr>
+<tr><td><b>Automation</b></td><td>UiPath RPA over SAP and Office, PDF OCR, GitHub Actions CI</td></tr>
+<tr><td><b>Older stumbling grounds</b></td><td>WordPress/PHP plugins, .NET APIs, technical SEO</td></tr>
+</table>
 
 ### Tech
 
@@ -60,6 +64,7 @@ I develop and ship both platforms from **Arch Linux**.
 **Tooling** &nbsp;
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
@@ -70,13 +75,10 @@ I develop and ship both platforms from **Arch Linux**.
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [**WhatAShape**](https://github.com/D4RK0N3dev/WhatAShape) | Mobile reflex arcade game — adaptive difficulty, hardware-accelerated animations, combo scoring | React Native, TypeScript, Reanimated, SVG |
-| **Aula** <sub>private</sub> | EdTech lecture recording with AI analysis — iOS, Android and Web | Expo, TypeScript, Supabase, RevenueCat |
+| **Aula** <sub>private</sub> | EdTech lecture recording with AI analysis — iOS, Android and Web, built from the first commit | Expo, TypeScript, Supabase, RevenueCat |
 | **CEDH.io Client** <sub>private</sub> | Desktop client for a deck-building community | Rust |
 | **GSC SEO Checker** <sub>private</sub> | Google Search Console reporting and audit tool | Python |
-| **omarchy-setup** <sub>private</sub> | My Arch Linux / Hyprland workstation configuration | Lua, Bash |
+| **omarchy-setup** <sub>private</sub> | My Arch Linux / Hyprland workstation, versioned and reproducible | Lua, Bash |
+| **cv-pdf-generator** <sub>private</sub> | Because writing a CV in HTML beat fighting a word processor | HTML, Node |
 
 > Most of my work lives in private and client repositories — the contribution graph below tells more of the story than the repo list does.
-
-### Background
-
-Engineer's degree in Computer Science, WSEI Kraków (in progress) · Certiport IT Specialist — JavaScript and Network Security · Polish (native), English (C1), German (A2)
