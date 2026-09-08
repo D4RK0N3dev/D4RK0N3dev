@@ -78,8 +78,7 @@ I develop and ship both platforms from **Arch Linux**.
 > Most of my work lives in private and client repositories, so the contribution graph says more than the repo list does.
 
 <p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=D4RK0N3dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=github_dark&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=D4RK0N3dev&layout=compact&hide_border=true&langs_count=8&theme=github_dark&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=D4RK0N3dev&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=560">
 </p>
 
 ### Background
